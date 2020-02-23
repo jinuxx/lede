@@ -97,7 +97,7 @@ jobs:
           cat >> .config <<EOF
           CONFIG_TARGET_ramips=y
           CONFIG_TARGET_ramips_mt7620=y
-          CONFIG_TARGET_DEVICE_ramips_mt7620_DEVICE_y1=y
+          CONFIG_TARGET_ramips_mt7620_DEVICE_lenovo_newifi-y1=y
           EOF
           # 固件压缩:
           cat >> .config <<EOF
